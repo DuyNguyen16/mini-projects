@@ -1,9 +1,9 @@
-
+import Captcha from "./Captcha";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
+    <div className="flex items-center justify-center min-h-dvh">
+      <Captcha />
     </div>
   );
 }
